@@ -1,4 +1,4 @@
-# RoEx
+# RoEx Tonn
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,121 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-RoEx is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://tonn-portal.roexaudio.com/
+RoEx Tonn provides an API that enables developers to add AI‑powered audio mixing, mastering, enhancement, and post‑production services to their products. The service processes multitrack mixes (2‑32 tracks), full‑track mastering, stem separation, and audio cleanup for music, film, TV, streaming, advertising, and podcast platforms. Access is based on prepaid credit packages, with free previews while credits remain, and pricing starts at $1.76 per full master in the Large pack rate.
+
+**Areas:** Audio Mixing · Mastering · Post‑Production · API · Cloud Audio Processing · Credits‑Based Pricing · Multitrack Mixing
+
+## RoEx Tonn on APIs.io
+
+Everything profiled for RoEx Tonn is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/roexaudio/](https://apis.io/providers/roexaudio/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [RoEx Tonn API](https://apis.io/apis/roexaudio/roexaudio-api/) — RoEx Tonn API as documented publicly: 40 operations. Contract generated from the documentation by API Evangelist (2026-11-10); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [PostMixenhanceRequest](https://apis.io/schemas/roexaudio/roexaudio-post-mixenhance-request/)
+- [PostMixenhancepreviewRequest](https://apis.io/schemas/roexaudio/roexaudio-post-mixenhancepreview-request/)
+- [PostMixpreviewRequest](https://apis.io/schemas/roexaudio/roexaudio-post-mixpreview-request/)
+- [PostRetrieverecombineResponse](https://apis.io/schemas/roexaudio/roexaudio-post-retrieverecombine-response/)
+- [PostRetrieverecombinepreviewResponse](https://apis.io/schemas/roexaudio/roexaudio-post-retrieverecombinepreview-response/)
+- [PostRetrievestemsResponse](https://apis.io/schemas/roexaudio/roexaudio-post-retrievestems-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Roexaudio Context](https://apis.io/jsonld/roexaudio/roexaudio-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [RoEx Tonn API Rules](https://apis.io/rules/roexaudio/roexaudio-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [RoEx Tonn Domain Security](https://apis.io/security/roexaudio/roexaudio-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [RoEx Tonn Plans Pricing](https://apis.io/plans/roexaudio/roexaudio-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://tonn-portal.roexaudio.com/)
+- [Documentation](https://tonn-portal.roexaudio.com/docs/)
+- [Getting started](https://tonn-portal.roexaudio.com/docs/getting-started)
+- [API reference](https://tonn-portal.roexaudio.com/docs/api-reference)
+- [Pricing](https://tonn-portal.roexaudio.com/pricing)
+- [Terms of service](https://tonn-portal.roexaudio.com/tos)
+- [Privacy policy](https://tonn-portal.roexaudio.com/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 51.7** — developing · rubric 0.27.0 · scored 2026-11-10
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 45.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 45.2 |
+| Access clarity | 73.2 |
+
+**Agent readiness 18.9** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/roexaudio/](https://apis.io/providers/roexaudio/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for RoEx Tonn: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/roexaudio/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
